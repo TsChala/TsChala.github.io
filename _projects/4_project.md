@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Minimal Forest Fire Models
+description: Nonlinear systems project in Matlab
+img: /assets/img/forest-fire.png
 importance: 3
 category: fun
 ---
@@ -17,7 +17,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+
     ---
 
 <div class="row">
