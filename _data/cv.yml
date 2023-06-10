@@ -32,20 +32,18 @@
       institution: Budapest University of Technology and Economics, Budapest, Hungary
       year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis - Emerging Fractal Patterns in Real 3D Vessel Geometries
+        - Fluid & Solid Mechanics Specialization
     - title: Erasmus Exchange Program
       institution: University of Naples Federico II, Naples, Italy
       year: 2020
       description:
-        - Thesis - Emerging Fractal Patterns in Real 3D Vessel Geometries
-        - Description 2.
+        - Nonlinear Systems, Numerical Methods, Transport Phenomena
     - title: BSc in Mechanical Engineering
       institution: Budapest University of Technology and Economics, Budapest, Hungary
       year: 2015 - 2019
       description:
         - Thesis - Model Predictive Control of a Balance Board
-        - Description 2.
 
 - title: Experience
   type: time_table
@@ -54,18 +52,14 @@
       institution: Los Alamos National Laboratory, Los Alamos, NM, USA
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Computational Physics and Methods Group
+
     - title: Graduate Research Assistant
       institution: Scientific Computing and Imaging Institute, University of Utah, Salt Lake City, UT, USA
       year: 2022 - 
       description:
-        - Description 1.
-        - Description 2.
+        - Nonlinear Dimensionality Reduction Methods for Unsteady Fluid Flows
+        - Enhancing Corrupt Cardiovascular Fluid Flow Data with Machine Learning
 
     - title: Graduate Research Assistant
       institution: Northern Arizona University, Flagstaff, AZ, USA
@@ -76,17 +70,21 @@
       year: 2021
       description:
         - ME 291R Thermodynamics recitation
+        
+    - title: Simulation Engineer Intern
+      institution: Furukawa Electric Institute of Technology, Budapest, Hungary
+      year: 2018-2021
+      description:
+          - title: Numerical Simulation of Keyhole Mode Laser Welding - OpenFOAM
+          contents:
+            - Optical Ray Tracing for Laser Simulation
+        - CFD Analysis of MOCVD reactor
+        - Nanofluids
 
     - title: Laboratory Assistant
       institution: Department of Hydrodynamic Systems, Budapest University of Technology and Economics, Budapest, Hungary
       year: 2017-2019
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
