@@ -6,7 +6,7 @@ subtitle: <a href='https://sci.utah.edu/people/hunor.csala.html'>Scientific Comp
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Warnock Engineering Building</p>
