@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 450" role="img" aria-labelledby="t"><title id="t">Concept illustration of physics-constrained cardiovascular flow</title><defs><linearGradient id="v" x1="0" x2="1"><stop stop-color="#147d86"/><stop offset=".55" stop-color="#e7e5dc"/><stop offset="1" stop-color="#e7653d"/></linearGradient></defs><rect width="650" height="450" fill="#0c222e"/><path d="M-20 115C123 53 188 106 265 176s119 128 180 58 70-107 225-56v134c-156-52-198-5-250 53s-137-5-213-82S102 208-20 249z" fill="#173d49" stroke="#3f7280" stroke-width="2"/><g fill="none" stroke="url(#v)" stroke-width="3" opacity=".95"><path d="M-20 152C124 95 190 140 258 206s115 103 174 50 81-82 240-40"/><path d="M-20 181C125 126 193 165 253 226s115 86 172 43 91-63 247-23"/><path d="M-20 211C124 157 190 187 246 243s117 72 175 39 98-41 251-8"/></g><g stroke="#e8f3f2" opacity=".35"><path d="M134 91v168M170 100v191M206 121v202M242 155v200"/><path d="M443 232v135M479 210v135M515 191v137M551 180v147"/></g><circle cx="425" cy="269" r="8" fill="#ef7b53"/><path d="M425 269l-42-102" stroke="#ef7b53" stroke-dasharray="4 5"/><text x="371" y="148" fill="#efaa8e" font-family="Arial" font-size="12">physics constraint</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 450" role="img" aria-labelledby="title desc">
+  <title id="title">Physics-constrained neural differential equations for stenosed blood flow</title><desc id="desc">Flow through a narrowed artery is coupled to a neural network term inside a governing partial differential equation.</desc>
+  <defs><linearGradient id="flow" x1="0" x2="1"><stop stop-color="#1faaa8"/><stop offset=".55" stop-color="#f0dfbd"/><stop offset="1" stop-color="#e7653d"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+  <rect width="650" height="450" fill="#0c222e"/>
+  <!-- stenosed vessel -->
+  <path d="M-20 118c117-13 186-18 252 8 44 17 55 68 94 68s50-51 94-68c66-26 135-21 252-8v198c-117 13-186 18-252-8-44-17-55-68-94-68s-50 51-94 68c-66 26-135 21-252 8Z" fill="#183d49" stroke="#5e7d87" stroke-width="3"/>
+  <g fill="none" stroke="url(#flow)" stroke-linecap="round"><path d="M-20 164c118-4 213-12 284 38 25 18 35 19 62 19s37-1 62-19c71-50 166-42 284-38" stroke-width="5" filter="url(#glow)"/><path d="M-20 192c121 0 220-6 286 19 24 9 34 10 60 10s36-1 60-10c66-25 165-19 286-19" stroke-width="3"/><path d="M-20 250c121 0 220 6 286-19 24-9 34-10 60-10s36 1 60 10c66 25 165 19 286 19" stroke-width="3"/><path d="M-20 278c118 4 213 12 284-38 25-18 35-19 62-19s37 1 62 19c71 50 166 42 284 38" stroke-width="5" filter="url(#glow)"/></g>
+  <g fill="#eef5f3"><path d="m172 184 14 7-14 7zM222 196l14 7-14 7zM428 196l14 7-14 7zM478 184l14 7-14 7z"/></g>
+  <path d="M292 116c7 32 16 53 34 78 18-25 27-46 34-78" fill="#d7d0bf" opacity=".88"/><path d="M292 316c7-32 16-53 34-78 18 25 27 46 34 78" fill="#d7d0bf" opacity=".88"/>
+  <path d="M326 82v41" stroke="#ee8d69" stroke-dasharray="3 5"/>
+  <!-- a text-free neural closure coupled to the vessel -->
+  <path d="M326 274v32" stroke="#87b0b2" stroke-dasharray="4 5"/>
+  <g transform="translate(184 330)" stroke="#8ab2b5" stroke-width="1.5" opacity=".95">
+    <path d="M0 45h42M42 14l74 31M42 45h74M42 76l74-31M116 17l72 28M116 45h72M116 73l72-28M188 45h72" fill="none"/>
+    <g fill="#167b82"><circle cx="42" cy="14" r="10"/><circle cx="42" cy="45" r="10"/><circle cx="42" cy="76" r="10"/><circle cx="116" cy="17" r="9"/><circle cx="116" cy="45" r="9"/><circle cx="116" cy="73" r="9"/></g>
+    <g fill="#e56b48" stroke="#ffc0a7"><circle cx="188" cy="45" r="11"/><circle cx="260" cy="45" r="7"/></g>
+  </g>
+  <path d="M82 375c36-31 61 21 94-6" fill="none" stroke="#1faaa8" stroke-width="3"/><path d="M474 369c35-25 61 25 95-5" fill="none" stroke="#e7653d" stroke-width="3"/>
+</svg>
