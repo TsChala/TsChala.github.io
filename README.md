@@ -2,13 +2,19 @@
 
 A dependency-free static site designed for GitHub Pages.
 
-## Publish
+**Live site:** https://tschala.github.io/
 
-1. Create a repository named `<your-github-username>.github.io`.
-2. Push the contents of this folder to its `main` branch.
-3. In **Settings → Pages**, set the source to **Deploy from a branch**, `main`, `/ (root)`.
+**Repository:** https://github.com/TsChala/TsChala.github.io
 
-The site uses no build tools. Open `index.html` locally to preview it.
+## Publish future changes
+
+```powershell
+git add .
+git commit -m "Describe your changes"
+git push
+```
+
+GitHub Pages deploys the `main` branch automatically. The site uses no build tools; open `index.html` locally to preview it.
 
 ## Update
 
