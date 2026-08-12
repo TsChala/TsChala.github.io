@@ -21,4 +21,3 @@ GitHub Pages deploys the `main` branch automatically. The site uses no build too
 - Featured papers live in `index.html` and `research.html`.
 - Career details live in `about.html`.
 - Colors, type, and layout live in `styles.css`.
-- Replace `Csala_CV.pdf` whenever the CV changes, keeping the same filename.
